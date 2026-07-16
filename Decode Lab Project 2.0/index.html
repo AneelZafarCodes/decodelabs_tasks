@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Backend API Development</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="logo">
+        Backend API
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#nervous">Nervous System</a></li>
+
+            <li><a href="#ipo">IPO</a></li>
+
+            <li><a href="#http">HTTP</a></li>
+
+            <li><a href="#json">JSON</a></li>
+
+            <li><a href="#status">Status Codes</a></li>
+
+            <li><a href="#security">Security</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>Project 2</h1>
+
+<h2>Backend API Development</h2>
+
+<p>
+
+Develop a backend API that handles requests,
+validates data and communicates with databases
+using REST principles.
+
+</p>
+
+<a href="#nervous" class="btn">
+Learn More
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/api.png" alt="API">
+
+</div>
+
+</section>
+
+
+<!-- ================= NERVOUS SYSTEM ================= -->
+
+<section id="nervous" class="section">
+
+<h2>The Nervous System</h2>
+
+<div class="content">
+
+<img src="images/brain.png" alt="Brain">
+
+<div>
+
+<p>
+
+The backend acts like the nervous system of an application.
+
+It processes requests, stores data, and sends responses.
+
+</p>
+
+<ul>
+
+<li>Application Logic</li>
+
+<li>Database Communication</li>
+
+<li>Authentication</li>
+
+<li>Validation</li>
+
+<li>Security</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= PARADIGM ================= -->
+
+<section class="section">
+
+<h2>The Paradigm Shift</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Frontend</h3>
+
+<p>
+
+Visible user interface.
+
+Handles design and interaction.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Backend</h3>
+
+<p>
+
+Handles logic,
+
+data,
+
+authentication,
+
+and APIs.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= IPO ================= -->
+
+<section id="ipo" class="section">
+
+<h2>IPO Model</h2>
+
+<div class="ipo">
+
+<div class="box">
+
+<h3>Input</h3>
+
+<p>User Request</p>
+
+</div>
+
+<div class="arrow">→</div>
+
+<div class="box">
+
+<h3>Process</h3>
+
+<p>Backend Logic</p>
+
+</div>
+
+<div class="arrow">→</div>
+
+<div class="box">
+
+<h3>Output</h3>
+
+<p>JSON Response</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= CLIENT SERVER ================= -->
+
+<section class="section">
+
+<h2>Bridging The Synaptic Gap</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Client</h3>
+
+<p>
+
+Browser sends HTTP Request
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Server</h3>
+
+<p>
+
+Processes Request
+
+Returns Response
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= HTTP METHODS ================= -->
+
+<section id="http" class="section">
+
+<h2>HTTP Methods</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>GET</h3>
+
+<p>Retrieve Data</p>
+
+</div>
+
+<div class="card">
+
+<h3>POST</h3>
+
+<p>Create Data</p>
+
+</div>
+
+<div class="card">
+
+<h3>PUT</h3>
+
+<p>Update Data</p>
+
+</div>
+
+<div class="card">
+
+<h3>DELETE</h3>
+
+<p>Delete Data</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= REST ================= -->
+
+<section class="section">
+
+<h2>RESTful Naming</h2>
+
+<table>
+
+<tr>
+
+<th>Correct</th>
+
+<th>Incorrect</th>
+
+</tr>
+
+<tr>
+
+<td>GET /users</td>
+
+<td>GET getUsers</td>
+
+</tr>
+
+<tr>
+
+<td>POST /users</td>
+
+<td>POST createUser</td>
+
+</tr>
+
+<tr>
+
+<td>GET /users/1/posts</td>
+
+<td>GET users.xml</td>
+
+</tr>
+
+</table>
+
+</section>
+
+
+<!-- ================= VALIDATION ================= -->
+
+<section class="section">
+
+<h2>The Gatekeeper Rule</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Client Validation</h3>
+
+<p>
+
+Basic form validation
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Server Validation</h3>
+
+<p>
+
+Always validate incoming requests.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Database</h3>
+
+<p>
+
+Only validated data is stored.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= JSON ================= -->
+
+<section id="json" class="section">
+
+<h2>JSON</h2>
+
+<pre>
+
+{
+
+"user":{
+
+"id":101,
+
+"name":"John",
+
+"role":"admin"
+
+}
+
+}
+
+</pre>
+
+</section>
+
+
+<!-- ================= STATUS ================= -->
+
+<section id="status" class="section">
+
+<h2>HTTP Status Codes</h2>
+
+<div class="grid">
+
+<div class="status">201 Created</div>
+
+<div class="status">204 No Content</div>
+
+<div class="status">400 Bad Request</div>
+
+<div class="status">401 Unauthorized</div>
+
+<div class="status">403 Forbidden</div>
+
+<div class="status">404 Not Found</div>
+
+<div class="status">429 Too Many Requests</div>
+
+<div class="status">500 Internal Server Error</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= SECURITY ================= -->
+
+<section id="security" class="section">
+
+<h2>Security & Resilience</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Authentication</h3>
+
+<p>Verify User Identity</p>
+
+</div>
+
+<div class="card">
+
+<h3>Authorization</h3>
+
+<p>Control User Permissions</p>
+
+</div>
+
+<div class="card">
+
+<h3>HTTPS</h3>
+
+<p>Secure Communication</p>
+
+</div>
+
+<div class="card">
+
+<h3>Rate Limiting</h3>
+
+<p>Prevent Abuse</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Backend API Development Project
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

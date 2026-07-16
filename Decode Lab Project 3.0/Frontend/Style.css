@@ -1,0 +1,278 @@
+/* ===============================
+   Google Font
+================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* ===============================
+   Container
+================================== */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+/* ===============================
+   Header
+================================== */
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+header h1{
+    font-size:36px;
+    color:#0f4c81;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#666;
+    font-size:17px;
+}
+
+/* ===============================
+   Form Section
+================================== */
+
+.form-section{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin-bottom:30px;
+}
+
+.form-section h2{
+    margin-bottom:20px;
+    color:#0f4c81;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.input-group input,
+.input-group select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    transition:.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus{
+    outline:none;
+    border-color:#0077ff;
+    box-shadow:0 0 8px rgba(0,119,255,.25);
+}
+
+/* ===============================
+   Button
+================================== */
+
+button{
+    width:100%;
+    padding:14px;
+    background:#0077ff;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+button:hover{
+    background:#005fd1;
+    transform:translateY(-2px);
+}
+
+/* ===============================
+   Search Box
+================================== */
+
+.search-section{
+    margin-bottom:25px;
+}
+
+.search-section input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.search-section input:focus{
+    outline:none;
+    border-color:#0077ff;
+}
+
+/* ===============================
+   Table
+================================== */
+
+.table-section{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#0077ff;
+    color:white;
+}
+
+thead th{
+    padding:15px;
+    text-align:center;
+}
+
+tbody td{
+    padding:14px;
+    border-bottom:1px solid #eee;
+    text-align:center;
+}
+
+tbody tr:hover{
+    background:#f5f8ff;
+}
+
+/* ===============================
+   Action Buttons
+================================== */
+
+.edit-btn,
+.delete-btn{
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    color:#fff;
+    font-size:14px;
+    margin:2px;
+}
+
+.edit-btn{
+    background:#28a745;
+}
+
+.edit-btn:hover{
+    background:#218838;
+}
+
+.delete-btn{
+    background:#dc3545;
+}
+
+.delete-btn:hover{
+    background:#c82333;
+}
+
+/* ===============================
+   Footer
+================================== */
+
+footer{
+    margin-top:40px;
+    background:#0f4c81;
+    color:#fff;
+    text-align:center;
+    padding:18px;
+}
+
+/* ===============================
+   Scrollbar
+================================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#0077ff;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-track{
+    background:#ddd;
+}
+
+/* ===============================
+   Responsive
+================================== */
+
+@media(max-width:992px){
+
+    header h1{
+        font-size:30px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .container{
+        width:95%;
+    }
+
+    .form-section{
+        padding:20px;
+    }
+
+    table{
+        min-width:700px;
+    }
+
+    button{
+        font-size:16px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    header h1{
+        font-size:25px;
+    }
+
+    header p{
+        font-size:15px;
+    }
+
+    .form-section h2{
+        font-size:22px;
+    }
+
+}
